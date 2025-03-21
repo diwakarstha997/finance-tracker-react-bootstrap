@@ -1,20 +1,29 @@
-import { Button, Col, Container, Row, Stack } from "react-bootstrap";
+import { Button, Col, NavLink, Row, Stack } from "react-bootstrap";
 import Logo from "./logo";
 
 const Navbar = () => {
     return(
-        <Row>
-            <Col className="d-flex justify-content-start bg-primary">
+        <Row className="py-4">
+            <Col className="d-flex justify-content-start">
                 <Logo />
             </Col>
-            <Col className="d-flex justify-content-center bg-secondary">
+            <Col className="d-flex justify-content-center">
                 <Stack direction="horizontal" gap={5}>
                     <div>Home</div>
                     <div>About Us</div>
                     <div>Contact</div>
                 </Stack>
             </Col>
-            <Col className="d-flex justify-content-end bg-danger">Buttons</Col>
+            <Col className="d-flex justify-content-end">
+                <Stack direction="horizontal" gap={5}>
+                    <NavLink>
+                        Login
+                    </NavLink>
+                    <Button className="btn-dark rounded-pill px-4">
+                        Get Started
+                    </Button>
+                </Stack>
+            </Col>
         </Row>
     )
 }
