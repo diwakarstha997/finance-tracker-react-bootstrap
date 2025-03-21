@@ -12,17 +12,23 @@ function App() {
 
         {/* Hero section */}
         <section>
-          <Row className='bg-success'>
-            <Col className='bg-info'>
-              <div>Hero beginning text</div>
-              <div>Hero main text</div>
-              <div>Hero welcome text</div>
-              <div>
-                Button
+          <Row className='my-5'>
+            <Col className=''>
+              <div className='hero-section-tag'>
+                <span>Solution to track your finance</span>
               </div>
+              <div className='hero-main-text'>
+                Visualize &lt;Icon&gt; Your <span class="underlined">Finance</span> to Plan Ahead
+              </div>
+              <div className='hero-welcome-text'>
+                Welcome to FinanceTracker, tracking your finance was never easy.
+              </div>
+              <Button style={{fontSize: "24px"}} className="btn-dark rounded-pill px-5 py-2">
+                Get Started
+              </Button>
             </Col>
-            <Col>
-              Image
+            <Col className='image-box'>
+              <img src="https://lntedutech.com/wp-content/uploads/2024/04/Personal-Finance-Management-scaled-1.jpg" alt="dashboard-img" width="100%"/>
             </Col>
           </Row>
         </section>
