@@ -35,7 +35,11 @@ function App() {
 
         {/* Quote Section */}
         <section>
-          <h1 className='text-center'>Landing Page Main text</h1>
+          <div className='d-flex justify-content-center'> 
+            <p className='page-quote'>
+              Make <span>Smart</span> Decisions Track Your Finance with Us
+            </p>
+          </div>
         </section>
 
         {/* Feature Section */}
