@@ -44,9 +44,9 @@ const Footer = () => {
                     </Stack>
                 </Col>
             </Row>
-            <Row className="text-center">
-                <p> &copy; Copyright All Reserved</p>
-            </Row>
+            <div className="footer-copyright-text">
+                &copy; Copyright All Reserved. Build by Diwakar Shrestha, inspired from Design of <a href="https://www.behance.net/gallery/213718149/Finance-Tracker-Landing-Page?tracking_source=search_projects|finance+tracker" target="_blank">Fahema Yesmin</a> from <a href="https://www.behance.net/gallery/213718149/Finance-Tracker-Landing-Page?tracking_source=search_projects|finance+tracker" target="_blank">www.behance.net</a>.
+            </div>
         </>
     )
 }
