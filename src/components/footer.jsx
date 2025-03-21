@@ -1,17 +1,21 @@
 import { Col, Container, Row, Stack } from "react-bootstrap";
+import Logo from "./logo";
+import TextContent from "./textContent";
 
 const Footer = () => {
     return(
         <>
-            <Row className="bg-info">
-                <Col className="bg-warning">
+            <Row className="">
+                <Col className="">
                     <Stack>
                         <div>
-                            <h3>
-                                Logo
-                            </h3>
+                           <Logo fontSize="32px"/>
                         </div>
-                        <div>Text</div>
+                        <TextContent 
+                            content="Welcome to FinanceTracker, tracking your finance was never easy." 
+                            fontSize="18px"
+                            minimumWidth="400px"
+                        />
                         <div>socials</div>
                     </Stack>
                 </Col>
@@ -26,7 +30,7 @@ const Footer = () => {
                     </Stack>
                 </Col>
             </Row>
-            <Row className="text-center bg-light">
+            <Row className="text-center">
                 <p> &copy; Copyright All Reserved</p>
             </Row>
         </>
