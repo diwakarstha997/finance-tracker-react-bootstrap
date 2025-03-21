@@ -1,12 +1,14 @@
+import { Container } from 'react-bootstrap'
 import './App.css'
+import Navbar from './components/navbar'
 
 function App() {
 
   return (
     <>
-      <p>
-        Finance Tracker
-      </p>
+      <Container>
+        <Navbar/>
+      </Container>
     </>
   )
 }
