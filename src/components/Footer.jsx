@@ -1,7 +1,7 @@
 import { Col, Row, Stack } from "react-bootstrap";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-import Logo from "./logo";
-import TextContent from "./textContent";
+import Logo from "./Logo";
+import TextContent from "./TextContent";
 
 const Footer = () => {
     return(

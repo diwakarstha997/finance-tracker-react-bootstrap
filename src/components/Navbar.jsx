@@ -1,5 +1,5 @@
 import { Button, Col, NavLink, Row, Stack } from "react-bootstrap";
-import Logo from "./logo";
+import Logo from "./Logo";
 
 const Navbar = () => {
     return(
