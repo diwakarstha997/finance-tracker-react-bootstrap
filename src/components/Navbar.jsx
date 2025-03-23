@@ -1,11 +1,12 @@
-import { Button, Col, NavLink, Row, Stack } from "react-bootstrap";
+import { Button, Col, Row, Stack } from "react-bootstrap";
 import Logo from "./Logo";
+import { Link } from "react-router";
 
 const Navbar = () => {
     return(
         <Row className="py-4">
             <Col className="d-flex justify-content-start">
-                <Logo />
+                <Link to="/" className="nav-link"><Logo /></Link>
             </Col>
             <Col className="d-flex justify-content-center">
                 <Stack direction="horizontal" gap={5}>
@@ -16,11 +17,11 @@ const Navbar = () => {
             </Col>
             <Col className="d-flex justify-content-end">
                 <Stack direction="horizontal" gap={5}>
-                    <NavLink to="/LoginPage.jsx">
+                    <Link to="/login" className="nav-link">
                         Login
-                    </NavLink>
+                    </Link>
                     <Button className="btn-dark rounded-pill px-4">
-                        Get Started
+                        <Link to="/register" className="nav-link">Get Started</Link>
                     </Button>
                 </Stack>
             </Col>

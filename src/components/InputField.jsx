@@ -2,11 +2,12 @@ import { Form } from "react-bootstrap"
 
 const InputField = ({label, inputFieldAttribute}) => {
     return(
-        <Form.Group>
-            <Form.Label>{label}</Form.Label>
+        <Form.Group className="my-3">
+            <Form.Label className="fw-bold">{label}</Form.Label>
 
-            <Form.Control 
+            <input 
                 {...inputFieldAttribute}
+                className="input-field"
             />
         </Form.Group>
     )

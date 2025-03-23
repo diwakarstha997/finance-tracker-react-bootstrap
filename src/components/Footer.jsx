@@ -6,14 +6,14 @@ import SocialIcon from "./SocialIcon";
 const Footer = () => {
     return(
         <>
-            <Row className="my-4">
+            <Row className="py-4 my-4">
                 <Col>
                     <Stack gap={3}>
                         <div>
                            <Logo fontSize="32px"/>
                         </div>
 
-                        <div className="heading-5 text-wrap-width-1">
+                        <div className="heading-6 text-wrap-width-1">
                             Welcome to FinanceTracker, tracking your finance was never easy.
                         </div>
 
