@@ -13,6 +13,18 @@
     color: #5a19b6b9;
 }
 
+.text-wrap-width-3 {
+    width: min(100%,100%)
+}
+
+.text-wrap-width-2 {
+    width: min(63%,100%)
+}
+
+.text-wrap-width-1 {
+    width: min(600px,100%)
+}
+
 .bg-color-purple-light {
     background-color: var(--color-purple-light);
 }
@@ -86,9 +98,6 @@
     border-color: var(--color-secondary) transparent transparent transparent;
     border-radius: 70% 5%;
 }
-
-
-
 
 /* Logo Component Style */
 .logo-wrapper {

@@ -2,6 +2,7 @@ import { Col, Row, Stack } from "react-bootstrap";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Logo from "./Logo";
 import TextContent from "./TextContent";
+import SocialIcon from "./SocialIcon";
 
 const Footer = () => {
     return(
@@ -18,18 +19,10 @@ const Footer = () => {
                             minimumWidth="400px"
                         />
                         <Stack direction="horizontal" gap={3}>
-                            <div style={{padding: "10px", height: "50px", width: "50px"}} className="border border-secondary rounded-circle text-center">
-                                <FaFacebookF />
-                            </div>
-                            <div style={{padding: "10px", height: "50px", width: "50px"}} className="border border-secondary rounded-circle text-center">
-                                <FaTwitter />
-                            </div>
-                            <div style={{padding: "10px", height: "50px", width: "50px"}} className="border border-secondary rounded-circle text-center">
-                                <FaInstagram />
-                            </div>
-                            <div style={{padding: "10px", height: "50px", width: "50px"}} className="border border-secondary rounded-circle text-center">
-                                <FaLinkedin />
-                            </div>
+                            <SocialIcon icon={<FaFacebookF />} />
+                            <SocialIcon icon={<FaTwitter />} />
+                            <SocialIcon icon={<FaInstagram />} />
+                            <SocialIcon icon={<FaLinkedin />} />
                         </Stack>
                     </Stack>
                 </Col>
