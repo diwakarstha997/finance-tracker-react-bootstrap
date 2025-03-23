@@ -16,7 +16,7 @@ const Navbar = () => {
             </Col>
             <Col className="d-flex justify-content-end">
                 <Stack direction="horizontal" gap={5}>
-                    <NavLink>
+                    <NavLink to="/LoginPage.jsx">
                         Login
                     </NavLink>
                     <Button className="btn-dark rounded-pill px-4">

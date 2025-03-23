@@ -1,7 +1,6 @@
 import { Col, Row, Stack } from "react-bootstrap";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Logo from "./Logo";
-import TextContent from "./TextContent";
 import SocialIcon from "./SocialIcon";
 
 const Footer = () => {
@@ -13,11 +12,11 @@ const Footer = () => {
                         <div>
                            <Logo fontSize="32px"/>
                         </div>
-                        <TextContent 
-                            content="Welcome to FinanceTracker, tracking your finance was never easy." 
-                            fontSize="18px"
-                            minimumWidth="400px"
-                        />
+
+                        <div className="heading-5 text-wrap-width-1">
+                            Welcome to FinanceTracker, tracking your finance was never easy.
+                        </div>
+
                         <Stack direction="horizontal" gap={3}>
                             <SocialIcon icon={<FaFacebookF />} />
                             <SocialIcon icon={<FaTwitter />} />

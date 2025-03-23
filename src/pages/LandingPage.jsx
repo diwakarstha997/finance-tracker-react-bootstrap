@@ -1,7 +1,6 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import TextContent from '../components/TextContent'
 import { VscGraph } from "react-icons/vsc";
 
 import featureDashboardImg from "../assets/featureDashboard.png"
@@ -24,7 +23,7 @@ const LandingPage = () => {
                   className='text-color-purple bg-color-purple-light px-4 py-2 mb-3'
                 />
 
-                <div className="heading-1 font-weight-bold text-wrap-width-1" >
+                <div className="heading-1 font-weight-bold text-wrap-width-2" >
                   Visualize <VscGraph /> Your <span className="text-underlined-curve">Finance</span> to Plan Ahead
                 </div>
 
@@ -47,7 +46,7 @@ const LandingPage = () => {
           {/* Quote Section */}
           <section>
             <div className='d-flex justify-content-center'> 
-              <div className="heading-1 text-center text-wrap-width-2" >
+              <div className="heading-1 text-center text-wrap-width-3" >
                 Make <span className='text-color-secondary'>Smart</span> Decisions Track Your Finance with Us
               </div>
             </div>
@@ -64,7 +63,7 @@ const LandingPage = () => {
                   </div>
                 </Col>
                 <Col className='mx-4'>
-                  <div className="font-weight-bold heading-2 text-wrap-width-1" >
+                  <div className="font-weight-bold heading-2 text-wrap-width-2" >
                     Dashboard with <span className='text-color-secondary '>Analytical</span> Graph
                   </div>
                   
@@ -85,7 +84,7 @@ const LandingPage = () => {
               {/* Feature 2 */}
               <Row>
                 <Col className='mx-4'>
-                  <div className="font-weight-bold heading-2 text-wrap-width-1" >
+                  <div className="font-weight-bold heading-2 text-wrap-width-2" >
                     <span className='text-color-secondary '>Track</span> Your All Expense Easily
                   </div>
                  
