@@ -4,6 +4,7 @@ import LoginPage from './pages/Auth/LoginPage'
 import SignupPage from './pages/Auth/SignupPage'
 import LandingPage from './pages/Guest/LandingPage'
 import DashboardPage from './pages/User/DashboardPage'
+import TransactionPage from './pages/User/TransactionPage'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Route path="/register" element={<SignupPage />} />
       {/* Private Routes */}
       <Route path="/dashboard" element={<DashboardPage />} />
+      <Route path="/transactions" element={<TransactionPage />} />
 
     </Routes>
     

@@ -41,11 +41,11 @@ const dummyData = [
     }
 ]
 
-const DashboardPage = () => {
+const TransactionPage = () => {
     return(
         <Container>
             <Navbar user="test"/>
-            <NavMenu activeMenuItem="dashboard"/>
+            <NavMenu activeMenuItem="transaction"/>
 
             {/* User Page Layout */}
             <Stack className="mt-1">
@@ -54,34 +54,12 @@ const DashboardPage = () => {
                     <Container style={{width: "80%", marginTop: "-100px"}} className="border border-dark bg-color-grenishblue-light">
                         <div style={{marginTop: "-30px"}} className="border border-dark shadow bg-color-grenishblue py-5 px-5 mx-5 rounded-5">Balance</div>
 
-                        {/* Dashboard Overview Section */}
+                        {/* Transaction Last 30 Days Section */}
                         <div className="mx-5 my-5">
                             <div className="border-bottom border-dark border-2 heading-6 fw-bold py-1">
-                                Overview
+                                Last 30 Days
                             </div>
-                            <Row className="mt-4 mx-3">
-                                <Col>
-                                    <div className="border border-dark border-2 shadow bg-color-grenishblue py-5 px-5 rounded-3">Income</div>
-                                </Col>
-                                <Col>
-                                    <div className="border border-dark border-2 shadow bg-color-grenishblue py-5 px-5 rounded-3">Expence</div>
-                                </Col>
-                            </Row>
-                        </div>
 
-                        {/* Dashboard Cashflow Graph Section */}
-                        <div className="mx-5 my-5">
-                            <div className="border-bottom border-dark border-2 heading-6 fw-bold py-1">
-                                CashFlow
-                            </div>
-                            <Row className="mt-4 mx-3">
-                                <Col>
-                                    <div style={{height: "300px"}} className="border border-dark border-2 shadow bg-color-grenishblue py-5 px-5 rounded-3">Income</div>
-                                </Col>
-                                <Col>
-                                    <div style={{height: "300px"}} className="border border-dark border-2 shadow bg-color-grenishblue py-5 px-5 rounded-3">Expence</div>
-                                </Col>
-                            </Row>
                         </div>
 
                         {/* Dashboard Transaction Table Section */}
@@ -103,4 +81,4 @@ const DashboardPage = () => {
     )
 }
 
-export default DashboardPage;
+export default TransactionPage;
