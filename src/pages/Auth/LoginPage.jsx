@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
-import LoginForm from "../components/LoginForm"
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import LoginForm from "../../components/LoginForm"
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 import { Link } from "react-router";
 
 const LoginPage = () => {

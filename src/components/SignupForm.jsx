@@ -7,7 +7,7 @@ const SignupForm = () => {
             <InputField label="Email"/>
             <InputField label="Password"/>
             <InputField label="Confirm Password"/>
-            <div class="d-grid">
+            <div className="d-grid">
                 <Button className="btn-dark my-3 px-5 py-2">Sign up</Button>
             </div>
         </Form>

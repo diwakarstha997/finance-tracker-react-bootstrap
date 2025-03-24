@@ -1,11 +1,12 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+
 import { VscGraph } from "react-icons/vsc";
 
-import featureDashboardImg from "../assets/featureDashboard.png"
-import featureExpenseImg from "../assets/featureExpense.png"
-import CustomTag from '../components/CustomTag';
+import featureDashboardImg from "../../assets/featureDashboard.png"
+import featureExpenseImg from "../../assets/featureExpense.png"
+import CustomTag from '../../components/CustomTag';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
 const LandingPage = () => {
     return(
@@ -15,8 +16,8 @@ const LandingPage = () => {
   
           {/* Hero section */}
           <section>
-            <Row className='my-5'>
-              <Col className=''>
+            <Row>
+              <Col className='align-content-center py-5'>
 
                 <CustomTag
                   label="Solution to track your finance"
@@ -35,9 +36,9 @@ const LandingPage = () => {
                   Get Started
                 </Button>
               </Col>
-              <Col className='image-box'>
-                  <div className='image-box border border-dark'>
-                    <img src="https://lntedutech.com/wp-content/uploads/2024/04/Personal-Finance-Management-scaled-1.jpg" alt="dashboard-img" width="100%"/>
+              <Col className='image-box align-content-center py-5'>
+                  <div className='image-box border border-dark' >
+                    <img src="https://lntedutech.com/wp-content/uploads/2024/04/Personal-Finance-Management-scaled-1.jpg" alt="dashboard-img" width="100%" />
                   </div>
               </Col>
             </Row>
@@ -54,7 +55,7 @@ const LandingPage = () => {
   
           {/* Feature Section */}
           <section>
-            <Container className='border-rounded bg-color-grey-light p-5 my-4'>        
+            <Container className='border-rounded bg-color-grey-light p-5 my-5'>        
               {/* Feature 1 */}
               <Row>
                 <Col className='mx-4'>

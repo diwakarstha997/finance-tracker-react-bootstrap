@@ -6,7 +6,7 @@ const LoginForm = () => {
         <Form>
             <InputField label="Email"/>
             <InputField label="Password"/>
-            <div class="d-grid">
+            <div className="d-grid">
                 <Button className="btn-dark my-3 px-5 py-2">Login</Button>
             </div>
         </Form>

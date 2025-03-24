@@ -4,8 +4,48 @@
     --color-purple: #5a19b6b9;
     --color-purple-light: #500cb013;
     --color-grey-light: rgba(128, 128, 128, 0.13);
+    --color-grenishblue:#bae8e8;
+    --color-grenishblue-light: #e3f6f5;
 }
 
+
+/* Negative Margin */
+
+/* level 1 */
+.mt-n-1 {
+    margin-top: -10px;
+}
+
+.mb-n-1 {
+    margin-bottom: -10px;
+}
+
+.ml-n-1 {
+    margin-left: -10px;
+}
+
+.mr-n-1 {
+    margin-right: -10px;
+}
+
+/* level 2 */
+.mt-n-2 {
+    margin-top: -20px;
+}
+
+.mb-n-2 {
+    margin-bottom: -20px;
+}
+
+.ml-n-2 {
+    margin-left: -20px;
+}
+
+.mr-n-2 {
+    margin-right: -20px;
+}
+
+/* Custom Tag  */
 .tag{
     border-radius: 50px;
     display: inline-block;
@@ -13,6 +53,7 @@
     color: #5a19b6b9;
 }
 
+/* Text wrap width 1-4  */
 .text-wrap-width-4 {
     width: min(100%,100%)
 }
@@ -29,6 +70,7 @@
     width: min(400px,100%)
 }
 
+/* Custom Background Colors */
 .bg-color-purple-light {
     background-color: var(--color-purple-light);
 }
@@ -37,6 +79,15 @@
     background-color: var(--color-grey-light);
 }
 
+.bg-color-grenishblue {
+    background-color: var(--color-grenishblue);
+}
+
+.bg-color-grenishblue-light {
+    background-color: var(--color-grenishblue-light);
+}
+
+/* Custom Text Colors  */
 .text-color-secondary {
     color: var(--color-secondary);
 }
@@ -45,10 +96,12 @@
     color: var(--color-purple);
 }
 
+/* Image Container Box */
 .image-box {
     width: 100%;
 }
 
+/* Custom Text Heading Size */
 .heading-1 {
     font-size: 80px;
 }
@@ -69,10 +122,7 @@
     font-size: 18px
 }
 
-.bg-black {
-    color: black
-}
-
+/* Custom Button Size */
 .btn-sm {
     font-size: 1rem;
 }
@@ -81,10 +131,13 @@
     font-size: 24px;
 }
 
+/* Custom Border Radius */
 .border-rounded {
     border-radius: 50px;
 }
 
+
+/* Custom Styled Underline Curve */
 .text-underlined-curve {
     color: var(--color-secondary);
     position: relative;
@@ -131,4 +184,31 @@
 .input-field:focus {
     outline: none;
     border-color: black;
+}
+
+/* Custom Table Design */
+.table {
+    text-align: right;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th:first-of-type,
+.table td:first-of-type {
+    text-align: left;
+}
+
+.table> thead th {
+    background-color: var(--color-grenishblue-light);
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+}
+
+.table > tbody tr {
+    border-bottom: 1px solid #bae8e8;
+    background-color: white;
+}
+
+.table > tbody td {
+    padding: 40px 10px;
 }
