@@ -1,6 +1,45 @@
 import { Col, Container, Row, Stack } from "react-bootstrap";
 import Navbar from "../../components/Navbar";
 import NavMenu from "../../components/NavMenu";
+import Table from "../../components/Table";
+
+const dummyData = [
+    {
+        date: "Date",
+        description: "Description",
+        income: "$1000",
+        expense: "",
+        balance: "$1000"
+    },
+    {
+        date: "Date",
+        description: "Description",
+        income: "$1000",
+        expense: "",
+        balance: "$1000"
+    },
+    {
+        date: "Date",
+        description: "Description",
+        income: "$1000",
+        expense: "",
+        balance: "$1000"
+    },
+    {
+        date: "Date",
+        description: "Description",
+        income: "$1000",
+        expense: "",
+        balance: "$1000"
+    },
+    {
+        date: "Date",
+        description: "Description",
+        income: "$1000",
+        expense: "",
+        balance: "$1000"
+    }
+]
 
 const DashboardPage = () => {
     return(
@@ -51,83 +90,10 @@ const DashboardPage = () => {
                                 Transactions
                             </div>
                             <div className="mt-4 mx-3">
-                                <table className="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Description</th>
-                                            <th>Income($)</th>
-                                            <th>Expense($)</th>
-                                            <th>Balance($)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    Date
-                                                </div>
-                                                <div>
-                                                    Description
-                                                </div>
-                                            </td>
-                                            <td>$1000</td>
-                                            <td>-</td>
-                                            <td>$1000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    Date
-                                                </div>
-                                                <div>
-                                                    Description
-                                                </div>
-                                            </td>
-                                            <td>$1000</td>
-                                            <td>-</td>
-                                            <td>$1000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    Date
-                                                </div>
-                                                <div>
-                                                    Description
-                                                </div>
-                                            </td>
-                                            <td>$1000</td>
-                                            <td>-</td>
-                                            <td>$1000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    Date
-                                                </div>
-                                                <div>
-                                                    Description
-                                                </div>
-                                            </td>
-                                            <td>$1000</td>
-                                            <td>-</td>
-                                            <td>$1000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    Date
-                                                </div>
-                                                <div>
-                                                    Description
-                                                </div>
-                                            </td>
-                                            <td>$1000</td>
-                                            <td>-</td>
-                                            <td>$1000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+
+                                {/* Table Component table heads -> heading, table data -> data, type -> (income, expense, transaction) */}
+                                <Table headings={["Description","Income($)","Expense($)","Balance($)"]} dataObj={dummyData} type="transaction"/>
+
                             </div>
                         </div>
                     </Container>
