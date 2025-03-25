@@ -1,8 +1,10 @@
-import { Col, Container, Row, Stack } from "react-bootstrap";
+import { Col, Container, Placeholder, Row, Stack } from "react-bootstrap";
 import Navbar from "../../components/Navbar";
 import NavMenu from "../../components/NavMenu";
 import Table from "../../components/Table";
 import StackedBar from "../../components/StackedBar";
+import InputField from "../../components/InputField";
+import SortButton from "../../components/SortButton";
 
 const dummyData = [
     {
@@ -70,6 +72,17 @@ const TransactionPage = () => {
                         <div className="mx-5 my-5">
                             <div className="border-bottom border-dark border-2 heading-6 fw-bold py-1">
                                 Transactions
+                            </div>
+                            <div className="mt-4 mx-3">
+                                <Row>
+                                    <Col>
+                                        <InputField inputFieldAttribute={{placeholder:"Search transactions"}}/>
+                                    </Col>
+                                    <Col className="align-content-center">
+                                        <SortButton label="Date" className="mx-2"/>
+                                        <SortButton label="Amount" className="mx-2"/>
+                                    </Col>
+                                </Row>
                             </div>
                             <div className="mt-4 mx-3">
 

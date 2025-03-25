@@ -7,7 +7,7 @@ const InputField = ({label, inputFieldAttribute}) => {
 
             <input 
                 {...inputFieldAttribute}
-                className="input-field"
+                className="input-field px-3"
             />
         </Form.Group>
     )
