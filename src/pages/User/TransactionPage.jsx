@@ -2,6 +2,7 @@ import { Col, Container, Row, Stack } from "react-bootstrap";
 import Navbar from "../../components/Navbar";
 import NavMenu from "../../components/NavMenu";
 import Table from "../../components/Table";
+import StackedBar from "../../components/StackedBar";
 
 const dummyData = [
     {
@@ -58,6 +59,9 @@ const TransactionPage = () => {
                         <div className="mx-5 my-5">
                             <div className="border-bottom border-dark border-2 heading-6 fw-bold py-1">
                                 Last 30 Days
+                            </div>
+                            <div>
+                                <StackedBar items={[{name:"Income",color:"bg-success", value:"3000"},{name:"Expense",color:"bg-danger", value:"3000"},{name:"Balance",color:"bg-light", value:"2000"}]} totalValue="8000"/>
                             </div>
 
                         </div>
