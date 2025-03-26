@@ -1,10 +1,8 @@
 /* ---> HomePage Style <--- */
 :root {
-    --color-secondary: #408cfc;
-    --color-purple: #5a19b6b9;
-    --color-purple-light: #500cb013;
     --color-grey-light: rgba(128, 128, 128, 0.13);
     --color-grenishblue:#bae8e8;
+    --color-grenishblue-dark:#49a5a5;
     --color-grenishblue-light: #e3f6f5;
 }
 
@@ -49,8 +47,6 @@
 .tag{
     border-radius: 50px;
     display: inline-block;
-    background-color: #500cb013;
-    color: #5a19b6b9;
 }
 
 /* Text wrap width 1-4  */
@@ -71,10 +67,6 @@
 }
 
 /* Custom Background Colors */
-.bg-color-purple-light {
-    background-color: var(--color-purple-light);
-}
-
 .bg-color-grey-light {
     background-color: var(--color-grey-light);
 }
@@ -88,12 +80,17 @@
 }
 
 /* Custom Text Colors  */
-.text-color-secondary {
-    color: var(--color-secondary);
+.text-color-grenishblue {
+    color: var(--color-grenishblue);
 }
 
-.text-color-purple {
-    color: var(--color-purple);
+.text-color-grenishblue-dark {
+    color: var(--color-grenishblue-dark);
+}
+
+
+.text-color-grenishblue-light {
+    color: var(--color-grenishblue-light);
 }
 
 /* Image Container Box */
@@ -139,7 +136,7 @@
 
 /* Custom Styled Underline Curve */
 .text-underlined-curve {
-    color: var(--color-secondary);
+    color: var(--color-grenishblue-dark);
     position: relative;
 }
 
@@ -150,15 +147,15 @@
     left: 0;
     height: 7px;
     width: 100%;
-    border: solid 6px var(--color-secondary);
-    border-color: var(--color-secondary) transparent transparent transparent;
+    border: solid 6px var(--color-grenishblue-dark);
+    border-color: var(--color-grenishblue-dark) transparent transparent transparent;
     border-radius: 70% 5%;
 }
 
 /* Logo Component Style */
 .logo-wrapper {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .logo-wrapper > img {

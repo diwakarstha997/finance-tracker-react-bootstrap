@@ -25,7 +25,7 @@ const Footer = () => {
                         </Stack>
                     </Stack>
                 </Col>
-                <Col>
+                <Col className="align-content-center">
                     <Stack gap={3}>
                         <h4>Company</h4>
                         <Stack gap={2}>

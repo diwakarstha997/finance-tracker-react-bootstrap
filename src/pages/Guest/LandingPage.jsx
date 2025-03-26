@@ -21,7 +21,7 @@ const LandingPage = () => {
 
                 <CustomTag
                   label="Solution to track your finance"
-                  className='text-color-purple bg-color-purple-light px-4 py-2 mb-3'
+                  className='text-color-grenishblue-dark bg-color-grenishblue-light fw-bolder  px-4 py-2 mb-3'
                 />
 
                 <div className="heading-1 fw-bold text-wrap-width-2" >
@@ -48,7 +48,7 @@ const LandingPage = () => {
           <section>
             <div className='d-flex justify-content-center'> 
               <div className="heading-1 text-center text-wrap-width-3" >
-                Make <span className='text-color-secondary'>Smart</span> Decisions Track Your Finance with Us
+                Make <span className='text-color-grenishblue-dark'>Smart</span> Decisions Track Your Finance with Us
               </div>
             </div>
           </section>
@@ -65,7 +65,7 @@ const LandingPage = () => {
                 </Col>
                 <Col className='mx-4'>
                   <div className="fw-bold heading-2 text-wrap-width-2" >
-                    Dashboard with <span className='text-color-secondary '>Analytical</span> Graph
+                    Dashboard with <span className='text-color-grenishblue-dark '>Analytical</span> Graph
                   </div>
                   
                   <div className="mb-5">
@@ -86,7 +86,7 @@ const LandingPage = () => {
               <Row>
                 <Col className='mx-4'>
                   <div className="fw-bold heading-2 text-wrap-width-2" >
-                    <span className='text-color-secondary '>Track</span> Your All Expense Easily
+                    <span className='text-color-grenishblue-dark '>Track</span> Your All Expense Easily
                   </div>
                  
                   <div className="mb-5">
