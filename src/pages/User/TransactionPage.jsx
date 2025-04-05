@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 import NavMenu from "../../components/NavMenu";
 import Table from "../../components/Table";
 import StackedBar from "../../components/StackedBar";
-import InputField from "../../components/InputField";
+import InputField from "../../components/InputField/InputField";
 import SortButton from "../../components/SortButton";
 import { transactions } from "../../dummyData/transactions";
 

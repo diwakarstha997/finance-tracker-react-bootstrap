@@ -1,5 +1,5 @@
 import { Button, Col, Row, Stack } from "react-bootstrap";
-import Logo from "./Logo";
+import Logo from "./Logo/Logo";
 import { Link } from "react-router";
 import { IoLogOut } from "react-icons/io5";
 

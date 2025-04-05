@@ -1,0 +1,9 @@
+/* Logo Component Style */
+.logo-wrapper {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-wrapper > img {
+    border-radius: 0% 50% 50% 50%;
+}

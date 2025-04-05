@@ -1,5 +1,5 @@
 import { Button, Form } from "react-bootstrap"
-import InputField from "./InputField"
+import InputField from "./InputField/InputField"
 import { useState } from "react"
 
 const initialValue = {

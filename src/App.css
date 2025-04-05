@@ -164,21 +164,6 @@
     background-color: rgba(128, 128, 128, 0.13);
 }
 
-/* Login Form */
-.input-field {
-    width: 100%;
-    height: 40px;
-    border-color: rgb(118, 118, 118);
-    border-width: 1px;
-    border-radius: 5px;
-}
-
-.input-field:focus {
-    outline: none;
-    border-width: 2px;
-    border-color: black;
-}
-
 /* Custom Table Design */
 .table {
     text-align: right;
