@@ -1,6 +1,6 @@
 import { Stack } from "react-bootstrap";
-import logo from "../assets/logo.png"
-import "./logo.css"
+import logo from "../../assets/logo.png"
+import "./Logo.css"
 
 const Logo = (props) => {
     const { fontSize } = props;
