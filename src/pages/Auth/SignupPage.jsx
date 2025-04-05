@@ -9,8 +9,8 @@ const SignupPage = () => {
         <Container>
             <Navbar />
             <Row className='mx-5 my-5'>
-              <Col className='align-content-center image-box mx-5'>
-                  <div className='image-box border border-dark'>
+              <Col className='align-content-center full-width mx-5'>
+                  <div className='full-width border border-dark'>
                     <img src="https://lntedutech.com/wp-content/uploads/2024/04/Personal-Finance-Management-scaled-1.jpg" alt="dashboard-img" width="100%"/>
                   </div>
               </Col>

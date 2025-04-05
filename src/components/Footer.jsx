@@ -37,7 +37,18 @@ const Footer = () => {
                 </Col>
             </Row>
             <div className="footer-copyright-text mb-4">
-                &copy; Copyright All Reserved. Build by Diwakar Shrestha, inspired from Design of <a href="https://www.behance.net/gallery/213718149/Finance-Tracker-Landing-Page?tracking_source=search_projects|finance+tracker" target="_blank">Fahema Yesmin</a> from <a href="https://www.behance.net/gallery/213718149/Finance-Tracker-Landing-Page?tracking_source=search_projects|finance+tracker" target="_blank">www.behance.net</a>.
+                &copy; {`Copyright All Reserved. Build by Diwakar Shrestha, inspired from Design of `}
+                <a 
+                    href="https://www.behance.net/gallery/213718149/Finance-Tracker-Landing-Page?tracking_source=search_projects|finance+tracker" 
+                    target="_blank">
+                       Fahema Yesmin
+                </a> 
+                {` from `}
+                <a 
+                    href="https://www.behance.net/gallery/213718149/Finance-Tracker-Landing-Page?tracking_source=search_projects|finance+tracker" 
+                    target="_blank">
+                        www.behance.net
+                </a>.
             </div>
         </>
     )

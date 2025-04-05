@@ -22,8 +22,8 @@ const LoginPage = () => {
                     </div>
                 </Container>
               </Col>
-              <Col className='align-content-center image-box px-5'>
-                  <div className='image-box border border-dark'>
+              <Col className='align-content-center full-width px-5'>
+                  <div className='full-width border border-dark'>
                     <img src="https://lntedutech.com/wp-content/uploads/2024/04/Personal-Finance-Management-scaled-1.jpg" alt="dashboard-img" width="100%"/>
                   </div>
               </Col>

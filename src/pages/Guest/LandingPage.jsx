@@ -4,9 +4,9 @@ import { VscGraph } from "react-icons/vsc";
 
 import featureDashboardImg from "../../assets/featureDashboard.png"
 import featureExpenseImg from "../../assets/featureExpense.png"
-import CustomTag from '../../components/CustomTag';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
+import CustomTag from '../../components/CustomTag/CustomTag';
 
 const LandingPage = () => {
     return(
@@ -36,8 +36,8 @@ const LandingPage = () => {
                   Get Started
                 </Button>
               </Col>
-              <Col className='image-box align-content-center py-5'>
-                  <div className='image-box border border-dark' >
+              <Col className='full-width align-content-center py-5'>
+                  <div className='full-width border border-dark' >
                     <img src="https://lntedutech.com/wp-content/uploads/2024/04/Personal-Finance-Management-scaled-1.jpg" alt="dashboard-img" width="100%" />
                   </div>
               </Col>
@@ -59,7 +59,7 @@ const LandingPage = () => {
               {/* Feature 1 */}
               <Row>
                 <Col className='mx-4'>
-                  <div className='image-box border border-dark'>
+                  <div className='full-width border border-dark'>
                     <img src={featureDashboardImg} alt="dashboard-img" width="100%"/>
                   </div>
                 </Col>
@@ -102,7 +102,7 @@ const LandingPage = () => {
                   </Button>
                 </Col>
                 <Col className='mx-4'>
-                  <div className='image-box border border-dark'>
+                  <div className='full-width border border-dark'>
                     <img src={featureExpenseImg} alt="expense-img" width="100%"/>
                   </div>
                 </Col>

@@ -1,3 +1,5 @@
+import './CustomTag.css'
+
 const CustomTag = (props) => {
     const { label, className } = props
 

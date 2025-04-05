@@ -5,44 +5,7 @@ import Table from "../../components/Table";
 import StackedBar from "../../components/StackedBar";
 import InputField from "../../components/InputField";
 import SortButton from "../../components/SortButton";
-
-const dummyData = [
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    },
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    },
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    },
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    },
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    }
-]
+import { transactions } from "../../dummyData/transactions";
 
 const TransactionPage = () => {
     return(
@@ -87,7 +50,7 @@ const TransactionPage = () => {
                             <div className="mt-4 mx-3">
 
                                 {/* Table Component table heads -> heading, table data -> data, type -> (income, expense, transaction) */}
-                                <Table headings={["Description","Income($)","Expense($)","Balance($)"]} dataObj={dummyData} type="transaction"/>
+                                <Table headings={["Description","Income($)","Expense($)","Balance($)"]} dataObj={transactions} type="transaction"/>
 
                             </div>
                         </div>

@@ -2,44 +2,7 @@ import { Col, Container, Row, Stack } from "react-bootstrap";
 import Navbar from "../../components/Navbar";
 import NavMenu from "../../components/NavMenu";
 import Table from "../../components/Table";
-
-const dummyData = [
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    },
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    },
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    },
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    },
-    {
-        date: "Date",
-        description: "Description",
-        income: "$1000",
-        expense: "",
-        balance: "$1000"
-    }
-]
+import { transactions } from "../../dummyData/transactions";
 
 const DashboardPage = () => {
     return(
@@ -92,7 +55,7 @@ const DashboardPage = () => {
                             <div className="mt-4 mx-3">
 
                                 {/* Table Component table heads -> heading, table data -> data, type -> (income, expense, transaction) */}
-                                <Table headings={["Description","Income($)","Expense($)","Balance($)"]} dataObj={dummyData} type="transaction"/>
+                                <Table headings={["Description","Income($)","Expense($)","Balance($)"]} dataObj={transactions} type="transaction"/>
 
                             </div>
                         </div>
